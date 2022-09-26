@@ -20,7 +20,7 @@ function App() {
     } else if (getInput && !toggleSubmit) {
       setTasks(
         getTasks.map((item) => {
-          if (item.id == isEdit) {
+          if (item.id === isEdit) {
             return { ...item, text: getInput };
           }
           return item;
