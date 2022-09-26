@@ -1,0 +1,95 @@
+* {
+    padding: 0%;
+    margin: 0%;
+  }
+  
+  body {
+    font-family: Algerian;
+  }
+  .inputfield{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  
+  }
+  
+  .mainContainer {
+    align-items: center;
+    width: 500px;
+    padding: 10px;
+    border: 1px solid black;
+    margin: 10px auto;
+  }
+  
+  .heading {
+    text-align: center;
+    
+  }
+  
+  .childContainer{
+    padding: 8px;
+    background-color: coral;
+  }
+  
+  .add {
+    font-weight: bold;
+    margin-bottom: 10px;
+    
+  }
+  
+  li{
+    list-style-type: none;
+    padding: 0%;
+    margin: 0%;
+  }
+  .inputTask {
+    width: 100%;
+    border-radius: 4px;
+    padding: 4px;
+  }
+  
+  .button {
+    
+    padding-top: 8px;
+  }
+  
+  
+  #click{
+    padding: 4px;
+    width: 20%;
+    background-color:yellowgreen;
+    border-radius: 4px;
+  }
+  
+  
+  ul{
+    
+    padding: 10px;
+    margin: 0;
+    list-style: none;
+  }
+  
+  
+  .taskName{
+    color: black; 
+    margin-bottom: 10px;
+    text-align: start;
+  }
+  
+  .list{
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid black;
+  }
+  
+  .doneButton{
+    background-color: yellowgreen;
+    padding: 4px;
+    margin-right: 4px;
+  }
+  
+  .removeButton{
+    background-color: red;
+    padding: 4px;
+    margin-left: 4px;
+  }
